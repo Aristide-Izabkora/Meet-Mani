@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Personal Account</title>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">
+      <img src="D_Logo.png" alt="Meet&Mani Logo">  
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="Home.html">HOME</a></li>
+      <li><a href="Contact.html">CONTACT</a></li>
+      <li><a href="About.html">ABOUT</a></li>
+      <li><a href="Login.html">LOGIN</a></li>
+    </ul>
+  </nav>
+  
+  <div class="container">
+
+    <h1>Create a personal account</h1>
+    <form>
+    <input type="text" placeholder="First name" required />
+
+    <input type="text" placeholder="Last name" required />
+
+    <div class="phone-input">
+      <div class="phone-code">+27</div>
+      <input type="text" placeholder="Phone number" required class="phone-number"/>
+    </div>
+
+    <input type="email" placeholder="Email" required />
+
+    <input type="password" placeholder="Password" required />
+
+    <div class="checkbox-group">
+      <label>
+        <input type="checkbox"  />
+        Enter between 8 to 20 characters
+      </label>
+      <label>
+        <input type="checkbox"  />
+        Use upper and lowercase letters
+      </label>
+      <label>
+        <input type="checkbox"  />
+        Enter at least 1 number or 1 symbol (such as !@#$%^&*)
+      </label>
+    </div>
+
+    <label style="display:flex; align-items:center; margin-top:10px;">
+      <input type="checkbox" />
+      You read and agree to the User Agreement and Privacy Statement.
+    </label>
+
+    <button type="submit" class="submit-btn">Agree and Create Account</button>
+  </form>
+</div>
+
